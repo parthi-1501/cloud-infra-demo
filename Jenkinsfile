@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     ENV = "${env.BRANCH_NAME}"
-    TF_WORKDIR = "git-cloud"
+    TF_WORKDIR = "/var/lib/jenkins/workspace/cloud-infra-pipeline_dev"
   }
 
   stages {
