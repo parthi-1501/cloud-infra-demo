@@ -1,3 +1,4 @@
+/*
 module "vpc" {
     source = "../../modules/vpc"
     env = "dev"
@@ -14,3 +15,4 @@ module "ec2" {
     subnet-id = module.vpc.subnet_id
     instance-count = 1
 }
+*/
