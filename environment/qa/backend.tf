@@ -7,8 +7,8 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "cloud-infra"
-    key    = "terraform.tfstate"
+    bucket = "parthi-jenkins-infra01"
+    key    = "cloud-infra/terraform.tfstate"
     region = "us-east-1"
     use_lockfile = true
   }
